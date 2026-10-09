@@ -94,7 +94,7 @@ pipeline {
         stage('Smoke Test') {
 
             when {
-                branch 'master'
+                branch 'main'
             }
 
             steps {
